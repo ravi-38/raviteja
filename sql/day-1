@@ -1,0 +1,16 @@
+learning sql
+# Update Ubuntu Repository 
+sudo apt-get update 
+
+# Download, & Install Utility Softwares 
+sudo apt-get install git wget unzip curl tree -y 
+
+# Download, Install & Configure MySQL DB
+sudo apt-get install mysql-server -y
+
+# Verification:
+# systemctl status mysql
+# systemctl restart mysql 
+# systemctl status mysql 
+
+# ps -aux | grep mysql 
