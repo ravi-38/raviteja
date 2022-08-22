@@ -1,0 +1,17 @@
+for java
+
+openjdk-11-jdk -y
+
+echo "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/" >> /etc/environment
+
+
+
+for tomcat
+
+for installation
+
+sudo wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.82/bin/apache-tomcat-8.5.82.tar.gz
+
+to uzip the file 
+
+sudo tar xvzf apache-tomcat-8.5.82.tar.gz
